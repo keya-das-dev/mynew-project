@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec1{
+    height: 600px;
+    
+    background: url(5e4b18feebfd1a6617b93138_photo-1416359658663-73a3834895eb.jpg) center;
+    background-size: cover;
+    border-bottom: 4px solid dodgerblue;
+   
+    
+}
+.rgb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(46, 157, 255, 0.338);
+    
+    
+    height: 100%;
+    width: 100%;
+    
+}
+.subdiv1{
+    text-align: center;
+}
+.subdiv1 h2{
+    font-weight: 300;
+    padding: 5px;
+    font-size: 4rem;
+    color: white;
+    letter-spacing: 5px;
+}
+.subdiv1 p{
+    padding: 2rem;
+    font-weight: 100;
+    font-size: 2rem;
+    color:dodgerblue;
+}
+.subdiv1 button:first-child{
+    padding: 15px;
+    margin: 5px;
+    font-size: 15px;
+    background-color:rgba(0, 191, 255, 0.762);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height:50px;
+    
+}
+.subdiv1 button:first-child:hover{
+    background-color:dodgerblue;
+}
+
+.subdiv1 button:last-child{
+    padding: 15px;
+    margin: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    border: solid 2px white; 
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+}
+.subdiv1 button:last-child:hover{
+    border: solid 2px dodgerblue; 
+}
+.sec2{
+    
+    min-height: 550px;
+}
+.sec2 .h2p{
+    text-align: center;
+    padding: 2rem;
+}
+.sec2 .h2p h2{
+    padding: 7px;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color:#333333be;
+}
+.sec2 .h2p p{
+    padding: 5px;
+    letter-spacing: 6px;
+    font-size: 17px;
+    color: #33333383;
+}
+.sec2 .display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.sec2 .card{
+
+    width: 330px;
+    background-color:white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    border: 1px solid rgba(135, 207, 235, 0.411);
+}
+.circle .icon i{
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgba(30, 143, 255, 0.639);
+    border-radius: 50%;
+    color: white;
+    border: 10px solid white;
+    outline: 2px solid  rgba(30, 143, 255, 0.639) ;
+}
+
+.card .body{
+    padding: 10px;
+}
+.card .body h2{
+    padding: 5px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 1.3rem;
+    color:#333333be;
+}
+.card .body p{
+    padding: 5px;
+    font-size: 15px;
+    color: #33333383;
+    
+}
+
+.sec3{
+    min-height: 800px;
+    background-color:steelblue;
+}
+.sec3 .h2p{
+    text-align: center;
+    padding: 2rem;
+}
+.sec3 .h2p h2{
+    padding: 7px;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: azure;
+}
+.sec3 .h2p p{
+    padding: 5px;
+    letter-spacing: 6px;
+    font-size: 17px;
+    color: azure;
+
+}
+.sec3 .flex .photo{
+    min-height: 500px;
+    width: 430px;
+}
+.sec3 .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2.5rem;
+}
+.sec3 .flex .photo .down{
+    padding: 20px;
+    text-align: center;
+}
+.sec3 .flex .photo .down h2{
+    font-size: 1.5rem;
+    padding: 10px;
+    letter-spacing: 6px;
+    font-weight: 400;
+    color: aliceblue;
+
+}
+.sec3 .flex .photo .down p{
+    color: rgba(240, 248, 255, 0.638);
+    padding: 20px;
+}
+.sec3 .flex .photo .down button{
+    padding: 15px;
+    margin: 5px;
+    font-size: 15px;
+    color:aliceblue;
+    background-color: transparent;
+    border: solid 2px white; 
+    border-radius: 5px;
+    width: 160px;
+    height: 50px;
+    
+}
+.sec3 .flex .photo .down button:hover{
+    border: solid 2px rgb(30, 79, 255); 
+    color: rgb(30, 79, 255) ;
+
+}
+
+.sec4{
+    
+    min-height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sec4 .h2p{
+    text-align: center;
+    padding: 2rem;
+
+}
+.sec4 .h2p h2{
+    padding: 10px;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color:#333333be;
+}
+.sec4 .h2p p{
+    padding:2rem;
+    letter-spacing: 6px;
+    font-size: 17px;
+    color: #33333383;
+    
+}
+.sec4 .picture{
+    width: 700px;
+    text-align: center;
+    
+}
+.sec4 .but button{
+    padding: 10px;
+    margin: 5px;
+    background-color: grey;
+    border: none;    
+    border-radius: 5px;
+    width: 150px;
+    color: aliceblue;
+    
+}
+.sec4 .but button:first-child{
+    background-color:steelblue;
+}
+.sec4 .but button:hover{
+    background-color:steelblue;
+
+}
+.sec4 .picture .pp2 h2{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+.sec4 .picture .pp2 p{
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.694);
+}
+
+/* media start .......................................................................................................................................................... */
+@media screen and (max-width:900px ){
+    .sec1{
+        width: 100%;
+    }
+    .subdiv1 h2{
+        font-size: 3rem;
+    }
+    .subdiv1 p{
+        font-size: 1.6rem;
+    }
+    
+  
+}
+@media screen and (max-width:550px ){
+    .subdiv1 h2{
+        font-size: 2rem;
+    }
+    .subdiv1 button:first-child{
+        font-size: 13px;
+        width: 100px;
+    }
+    .subdiv1 button:last-child{
+        font-size: 13px;
+        width: 120px;
+    }
+
+}
+@media screen and (max-width:1123px){
+   
+    .sec2 .card{
+        width: 270px;
+        height:max-content;
+
+    }
+   
+    
+
+
+}
+@media screen and (max-width:900px ){
+    .sec2 .display{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .sec2 .card{
+        width: 600px;
+        height:max-content;
+
+    }
+    .sec2 .h2p h2 {
+        font-size:1.7rem
+    }
+    
+    .circle .icon i{
+        font-size: 30px;
+        padding: 30px;
+    }
+
+}
+@media screen and (max-width:633px ){
+    .sec2 .card{
+        width: 500px;
+        height:max-content;
+
+    }
+    .circle .icon i{
+        font-size: 25px;
+        padding: 25px;
+    }
+
+   
+}
+@media screen and (max-width:550px ){
+    .sec2 .card{
+        width: 400px;
+        height:max-content;
+
+    }
+   
+}
+
+@media screen and (max-width:1200px ){
+    .sec3 .flex .photo{
+    
+        width: 350px;
+    }
+   
+    
+    
+    
+
+}
+@media screen and (max-width:900px ){
+    .sec3 .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec3 .flex .photo{
+    
+        width: 500px;
+    }
+   
+
+}
+@media screen and (max-width:900px ){
+    .sec3 .flex .photo{
+    
+        width: 400px;
+    }
+   
+
+
+
+}
+@media screen and (max-width:500px ){
+    .sec3 .flex .photo{
+    
+        width: 300px;
+    }
+   
+
+}
+@media screen and (max-width:1200px ){
+    
+.sec4 .picture{
+    width: 600px;
+}
+.sec4 .h2p{
+    text-align: center;
+    padding: 2rem;
+
+}
+.sec4 .but button{
+    display: flex;
+   
+    justify-content: center;
+    max-width: 120px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.sec4 .h2p h2{
+    font-size: 1.5rem;
+}
+
+
+
+
+}
+
+
+
+
+
